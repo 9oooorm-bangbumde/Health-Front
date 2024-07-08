@@ -1,0 +1,18 @@
+.exercise {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; // 상단 정렬
+    padding: 20px;
+  
+    .calendar {
+      flex: 1;
+    }
+  
+    .date-info {
+      flex: 1;
+      padding: 20px;
+      background-color: #f0f0f0;
+      margin-left: 20px;
+      border-radius: 8px;
+    }
+  }
